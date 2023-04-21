@@ -1,4 +1,4 @@
-21599044712059671
+21600726609573516
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90167,12 +90167,12 @@ M3_Whole
 1
 1
 zgoolib
-RJ45_HanRun
+RJ45_HanRun_HR911105A
 
 
 0
 14
-13
+14
 zgoolib
 SWPA3010
 
@@ -90187,6 +90187,13 @@ SelfLock_Switch
 0
 6
 6
+zgoolib
+TF-SMD_TF-02
+
+
+0
+13
+13
 zgoolib
 USB_C_PIN16
 

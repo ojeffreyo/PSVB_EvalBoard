@@ -22536,7 +22536,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "ST_RESET") (unit 1)
+          (reference "ST_RESET1") (unit 1)
         )
       )
     )
@@ -22637,7 +22637,7 @@
   (symbol (lib_id "zgoolib:USB_C_16PIN-Connector") (at 81.28 618.49 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03c20b64-23b1-45b6-8887-eaccabb44d52)
-    (property "Reference" "J2" (at 80.645 640.08 0)
+    (property "Reference" "USB2" (at 80.645 640.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_16PIN-Connector" (at 80.645 637.54 0)
@@ -22668,7 +22668,7 @@
     (instances
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "J2") (unit 1)
+          (reference "USB2") (unit 1)
         )
       )
     )
@@ -23120,7 +23120,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "C86") (unit 1)
+          (reference "C97") (unit 1)
         )
       )
     )
@@ -23493,7 +23493,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "3V3_PWR") (unit 1)
+          (reference "3V3_PWR1") (unit 1)
         )
       )
     )
@@ -23774,7 +23774,7 @@
     (property "Value" "CR1220-2" (at 846.201 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PUTUO-MCU:CR1220_Holder" (at 845.82 128.27 0)
+    (property "Footprint" "zgoolib:CR1220_Holder" (at 845.82 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 845.82 128.27 0)
@@ -24363,7 +24363,7 @@
   (symbol (lib_id "Device:C") (at 811.911 133.477 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f449e5f-8a8f-421c-bd4e-9d914e40081a)
-    (property "Reference" "C33" (at 807.847 129.413 0)
+    (property "Reference" "C33" (at 806.45 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 806.196 131.445 0)
@@ -24385,7 +24385,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "C97") (unit 1)
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -25099,7 +25099,7 @@
   (symbol (lib_id "zgoolib:USB_C_16PIN-Connector") (at 303.53 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28e8068d-96bb-4c31-ac4b-a5f76c59ef2e)
-    (property "Reference" "J1" (at 293.37 52.07 0)
+    (property "Reference" "USB1" (at 295.91 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_16PIN-Connector" (at 302.895 90.17 0)
@@ -25130,7 +25130,7 @@
     (instances
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "J1") (unit 1)
+          (reference "USB1") (unit 1)
         )
       )
     )
@@ -27495,7 +27495,7 @@
     (property "Value" "5Axises_KEY" (at 850.138 486.664 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PUTUO-MCU:5Axises_Key" (at 863.6 457.2 0)
+    (property "Footprint" "zgoolib:5Axises_Key" (at 863.6 457.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 863.6 457.2 0)
@@ -27914,7 +27914,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "5V_PWR") (unit 1)
+          (reference "5V_PWR1") (unit 1)
         )
       )
     )
@@ -29472,7 +29472,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "U6") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -30963,7 +30963,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "1V8_PWR") (unit 1)
+          (reference "1V8_PWR1") (unit 1)
         )
       )
     )
@@ -31059,7 +31059,7 @@
     (property "Value" "0603 10mR/1%" (at 36.83 314.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.782 318.77 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 33.782 318.77 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 318.77 0)
@@ -33498,7 +33498,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "U5") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -34611,7 +34611,7 @@
   (symbol (lib_id "Device:C") (at 825.627 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e30bc7e-e103-4d9f-a9f2-e860a159e82a)
-    (property "Reference" "C34" (at 821.563 129.286 0)
+    (property "Reference" "C34" (at 820.42 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 820.547 131.318 0)
@@ -34633,7 +34633,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "C98") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -36621,7 +36621,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "C93") (unit 1)
+          (reference "C99") (unit 1)
         )
       )
     )
@@ -37297,7 +37297,7 @@
     (property "Value" "0603 10mR/1%" (at 36.83 238.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.782 242.57 90)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 33.782 242.57 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 242.57 0)
@@ -37519,7 +37519,7 @@
   (symbol (lib_id "zgoolib:PIN10_2x5") (at 374.65 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad549e9d-48ef-40ef-8e3d-87f19c18c977)
-    (property "Reference" "AKINA_JTAG" (at 374.65 251.46 0)
+    (property "Reference" "AKINA_JTAG1" (at 374.65 251.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 374.65 251.46 0)
@@ -37544,7 +37544,7 @@
     (instances
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "AKINA_JTAG") (unit 1)
+          (reference "AKINA_JTAG1") (unit 1)
         )
       )
     )
@@ -39007,7 +39007,7 @@
   (symbol (lib_id "zgoolib:CH395Q") (at 671.83 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2097da9-5634-4981-9bd6-7ee2960567fa)
-    (property "Reference" "U8" (at 646.43 52.07 0)
+    (property "Reference" "U13" (at 646.43 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CH395Q" (at 670.56 81.28 0)
@@ -39086,7 +39086,7 @@
     (instances
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "U8") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -41512,7 +41512,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "U7") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -43168,7 +43168,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "ST_JTAG") (unit 1)
+          (reference "ST_JTAG1") (unit 1)
         )
       )
     )
@@ -43280,7 +43280,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "AKINA_RESET") (unit 1)
+          (reference "AKINA_RESET1") (unit 1)
         )
       )
     )
@@ -43398,7 +43398,7 @@
       )
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "C87") (unit 1)
+          (reference "C98") (unit 1)
         )
       )
     )
@@ -43991,7 +43991,7 @@
   (symbol (lib_id "zgoolib:CH395Q") (at 673.1 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd0a041c-bca8-4ec2-b5e0-c3a7caab738b)
-    (property "Reference" "U9" (at 647.7 168.91 0)
+    (property "Reference" "U14" (at 647.7 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CH395Q" (at 671.83 198.12 0)
@@ -44070,7 +44070,7 @@
     (instances
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
-          (reference "U9") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )

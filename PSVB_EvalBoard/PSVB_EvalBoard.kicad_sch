@@ -11245,6 +11245,10 @@
     (stroke (width 0) (type default))
     (uuid 5cd93b79-c0ea-48fd-8e05-64febc3d8847)
   )
+  (wire (pts (xy 378.46 317.5) (xy 378.46 320.04))
+    (stroke (width 0) (type default))
+    (uuid 5ce65a73-bf8e-4210-a532-69bc97399ee1)
+  )
   (wire (pts (xy 580.39 194.31) (xy 603.25 194.31))
     (stroke (width 0) (type default))
     (uuid 5cfbe942-41a5-446e-b23c-2902f57ff0b9)
@@ -13090,7 +13094,7 @@
     (stroke (width 0) (type default))
     (uuid 8c7565b7-5fa3-4d51-9418-387298732d0f)
   )
-  (wire (pts (xy 386.08 320.04) (xy 407.67 320.04))
+  (wire (pts (xy 378.46 320.04) (xy 407.67 320.04))
     (stroke (width 0) (type default))
     (uuid 8c8408f8-b072-4025-9abe-2ab55c3c039d)
   )
@@ -24670,6 +24674,36 @@
       (project "PSVB_EvalBoard"
         (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
           (reference "KEY8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 378.46 317.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 247a66a3-074f-49e7-bed5-7c37ffa7ae36)
+    (property "Reference" "#PWR0163" (at 378.46 321.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 378.841 313.1058 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 378.46 317.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 378.46 317.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea13da60-e96e-42bc-ab15-5b316ddc2579))
+    (instances
+      (project "PutuoEvalBoard_V2"
+        (path "/a62609cd-29b7-4918-b97d-7b2404ba61cf"
+          (reference "#PWR0163") (unit 1)
+        )
+      )
+      (project "PSVB_EvalBoard"
+        (path "/f2b0a56f-d786-40ff-9774-78e3f95871c8"
+          (reference "#PWR0273") (unit 1)
         )
       )
     )

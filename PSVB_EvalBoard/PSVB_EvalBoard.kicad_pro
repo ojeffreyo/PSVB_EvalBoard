@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -64,10 +64,7 @@
         "malformed_courtyard|59150000|82225000|f3ba2a16-7df9-4e72-a14c-bd81fce85ab3|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|59150000|95225000|43f8a678-7008-4b1d-aa1a-5353151e4129|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|59170000|82225000|f3ba2a16-7df9-4e72-a14c-bd81fce85ab3|00000000-0000-0000-0000-000000000000",
-        "malformed_courtyard|59170000|95225000|43f8a678-7008-4b1d-aa1a-5353151e4129|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|77837500|92750000|377539e8-ffc1-40d2-a038-45111b1db1ff|2014d847-5eb8-4f36-a1d0-8a0d0730f351|F.Cu",
-        "starved_thermal|91750000|83337500|377539e8-ffc1-40d2-a038-45111b1db1ff|691c4395-97bf-4151-9947-656a649eec6b|F.Cu",
-        "starved_thermal|99771200|126542800|377539e8-ffc1-40d2-a038-45111b1db1ff|7cff6d89-60ee-440c-8944-7dab6ea6a9ed|In1.Cu"
+        "malformed_courtyard|59170000|95225000|43f8a678-7008-4b1d-aa1a-5353151e4129|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -131,7 +128,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
